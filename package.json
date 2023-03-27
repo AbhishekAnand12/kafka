@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/AbhishekAnand12/kafka/issues"
   },
-  "homepage": "https://github.com/AbhishekAnand12/kafka#readme"
+  "homepage": "https://github.com/AbhishekAnand12/kafka#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "node-rdkafka": "^2.15.0",
+    "readline": "^1.3.0"
+  }
 }
